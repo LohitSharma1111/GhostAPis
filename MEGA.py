@@ -1821,3 +1821,4 @@ def coverback_generate(req: CoverBackRequest):
     )
 
     return CoverBackResponse(pages=[page_out], title_used=title_used, message="Cover & Back generated (base64 only).")
+
