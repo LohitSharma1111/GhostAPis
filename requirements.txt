@@ -1,41 +1,20 @@
-# fastapi==0.115.0
-# uvicorn[standard]==0.30.0
+fastapi
+uvicorn[standard]
 
-# pydantic==1.10.15
-# pydantic-core==2.23.4
+pydantic
+pydantic-core
 
-# openai==1.51.0
+openai
 
-# requests==2.32.3
+requests
 
-# Pillow==10.4.0
-# qrcode==7.4.2
+Pillow
+qrcode
+python-dotenv
 
-# python-dotenv==1.0.1
+# For JSON/YAML helpers (LLM parsing)
+orjson
+PyYAML
 
-# # For JSON/YAML helpers (LLM parsing)
-# orjson==3.10.7
-# PyYAML==6.0.2
-
-# # Optional but recommended for stability in hashing and utils
-# python-multipart==0.0.9
-
-# FastAPI + Pydantic 1 compatible versions
-fastapi==0.109.2
-uvicorn[standard]==0.30.0
-
-pydantic==1.10.15
-pydantic-core==2.23.4   # this is fine
-
-openai==1.51.0
-requests==2.32.3
-
-Pillow==10.4.0
-qrcode==7.4.2
-
-python-dotenv==1.0.1
-
-orjson==3.10.7
-PyYAML==6.0.2
-
-python-multipart==0.0.9
+# Optional but recommended for stability in hashing and utils
+python-multipart
